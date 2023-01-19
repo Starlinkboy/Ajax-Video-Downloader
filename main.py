@@ -1,3 +1,6 @@
+# Built by Starlinkboy#0159
+# github.com/Starlinkboy
+# Don't Skid!
 try:
     import tkinter                                                          as tk
     from pytube                                                             import YouTube
@@ -145,7 +148,7 @@ dir_label = tk.Label(root, text="", bg="#ADD8E6", fg="black")
 dir_label.pack()
 empty1.pack()
 
-submit_button = tk.Button(root, text="Submit", command=submit)
+submit_button = tk.Button(root, text="Download", command=submit)
 submit_button.pack()
 out = tk.Label(root,bg="#ADD8E6", fg="black" ,text="")
 out.pack()
